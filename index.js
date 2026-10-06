@@ -11,7 +11,7 @@ function registerscrapplayer() {
    let scrapusername = document.getElementById(inputcontainer).value; 
 alert("Welcome " + scrapusername + " to the Craps Game!");
 removeRegistrationPanel()
-ShowMainGameSection()
+ ShowMainGameSection()
 }
 
 function ShowMainGameSection() {
