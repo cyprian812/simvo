@@ -23,16 +23,16 @@ button:hover{
 
 #title{
 
-   color:var(--title)
+   color:var(--title);
     text-align: center;
     padding: 200px;
    background-position: center;
-   background-image: url(./images/pink.webp);
+   background-image: url(../images/pink.webp);
    padding: 20px;
    
    
 }
-.{
+* {
     box-sizing: border-box;
     font-family: Verdana;
 }

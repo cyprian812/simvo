@@ -1,0 +1,43 @@
+#casinogame{
+ background-image: url("../images/vegas.jpg")
+;
+background-position: center top;
+color: white;
+}
+.game-title{
+   text-align: center;
+   margin-top: 100px;
+
+}
+.crap-game-container{
+   width: min(700px,80vw); 
+   height: min(500px );
+   border: solid white 2px;
+   margin: 100px auto 0 auto;
+   background-image: url(../images/OIP.webp);
+   background-size: cover;
+}
+.crap-game-container{
+   margin-top: 50px;
+   text-align: center;
+}
+.input-container{
+   background-color: none;
+   border: none;
+   border-bottom: solid white 1px;
+   margin-top: 25px ;
+   color: white;
+   text-align: center;
+}
+.input-container:focus{
+   outline-width: 0;
+   border: none;
+}
+.continue-button{
+   margin: 25px;
+}
+.continue-button:hover{
+   cursor: pointer;
+   font-weight: bold;
+}
+
